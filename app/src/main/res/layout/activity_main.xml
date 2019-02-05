@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_marginTop="20sp"
+            android:background="@color/cyan"
+            >
+
+            <TextView
+                android:layout_span="4"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="STUDENT DETAILS"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_marginTop="20sp"
+            android:background="@color/Blue"
+            >
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="ID"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="CGPA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="FirstName"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="LastName"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/ROW3"
+            android:layout_marginTop="20sp"
+            >
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="111"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="0.00"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Fahim"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Losser"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/ROW4"
+            android:layout_marginTop="20sp"
+            >
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="124"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="3.7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Siam"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Legend"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
